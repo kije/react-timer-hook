@@ -1,5 +1,5 @@
 import { useState, useEffect, useRef } from 'react';
-import { Time, Validate } from './utils';
+import { Time, Validate } from './utils/index';
 
 export default function useTimer(settings) {
   const { expiryTimestamp: expiry, onExpire } = settings || {};

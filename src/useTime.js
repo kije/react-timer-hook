@@ -1,5 +1,5 @@
 import { useState, useEffect, useRef } from 'react';
-import { Time } from './utils';
+import { Time } from './utils/index';
 
 export default function useTime(settings) {
   const { format } = settings || {};
