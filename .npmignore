@@ -7,6 +7,6 @@ dev-dist
 
 *.js
 !dist/index.js
-!src/*.js
+!src/**/*.js
 
 *.html
